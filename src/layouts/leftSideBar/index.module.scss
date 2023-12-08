@@ -1,0 +1,27 @@
+.leftSideBar{
+    color:white;
+
+    .brand{
+        width: 100%;
+        text-align: center;
+        padding: 48px 0;
+    }
+
+    .itemMenuActive{
+        background: linear-gradient(90deg, #1C4185 50%, rgba(28, 65, 133, 0.00) 85%);
+        position: relative;
+        font-weight: 500;
+        font-size: 19px;
+        color: white;
+
+        &::before{
+            position: absolute;
+            left: 0;
+            top: 0;
+            content: '';
+            height: 100%;
+            width: 2px;
+            background-color: white;
+        }
+    }
+}
